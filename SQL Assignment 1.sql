@@ -1,4 +1,4 @@
-create database if not organisation ;
+create database if not exists organisation ;
 use organisation ;
 create table if not exists SalesPeople(
 Snum int (10) not null,Sname char(20) unique ,
